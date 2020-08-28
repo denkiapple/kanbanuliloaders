@@ -1,0 +1,53 @@
+.layout {
+    background-color: rgba(0,0,0,0.4);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolisContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 5rem;
+}
+
+.bolis {
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    border-radius: 50%;
+
+    animation-name: bouncy;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+.bolis:first-of-type {
+    animation-delay: -0.5s
+}
+
+.bolis:last-of-type {
+    animation-delay: 0.5s;
+}
+
+@keyframes bouncy {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    
+    to {
+        transform: translateY(1rem);
+        opacity: 0.6;
+    }
+}

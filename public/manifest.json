@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Kanbanuli Loaders",
+  "name": "Propuestas de Loader para Kanbanuli",
   "icons": [
     {
       "src": "favicon.ico",

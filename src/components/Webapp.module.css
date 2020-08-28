@@ -1,0 +1,88 @@
+.container {
+    color: black;
+    margin: 0;
+    background-color: #f0f0f0;
+    position: relative;
+    height: 100%;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobileHeader {
+    flex-direction: column;
+}
+
+.mobileHeader > .user{
+    display: none;
+}
+
+.brand {
+    color: #5993ff;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+p {
+    font-size: 0.8rem;
+    margin: 0.25rem;
+    margin-right: 1rem;
+    padding: 0;
+    color: #4d4d4d;
+}
+
+p:first-of-type {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    height: 3.7rem;
+    width: 5rem;
+    border-bottom: 3px solid transparent;
+    transition: all 600ms;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.selectedButton {
+    border-bottom: 3px solid #5993ff;
+}
+
+.sectionHeader {
+    text-align: left;
+    margin-left: 1rem;
+    color: #1d3d78;
+}
+
+.about:first-of-type {
+    height: 35rem;
+    text-align: justify;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 2rem;
+    max-width: 35rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header > .user {
+        display: none;
+    }
+}

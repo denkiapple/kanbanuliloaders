@@ -1,0 +1,26 @@
+.layout {
+    margin-top: 25rem;
+    z-index: 10;
+    height: 100%;
+    position: relative;
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 60rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .layout {
+        margin-top: 18rem;
+    }
+
+    .controls {
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
