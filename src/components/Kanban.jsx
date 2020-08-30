@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { dolorSit } from "./constants";
 import { ColumnLoader } from ".";
 import styles from "./Kanban.module.css";
