@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kanbanuliloaders/static/css/main.da1ed5c4.chunk.css",
+    "main.js": "/kanbanuliloaders/static/js/main.75d80dbf.chunk.js",
+    "main.js.map": "/kanbanuliloaders/static/js/main.75d80dbf.chunk.js.map",
+    "runtime-main.js": "/kanbanuliloaders/static/js/runtime-main.4c8689ff.js",
+    "runtime-main.js.map": "/kanbanuliloaders/static/js/runtime-main.4c8689ff.js.map",
+    "static/js/2.6a3d70f7.chunk.js": "/kanbanuliloaders/static/js/2.6a3d70f7.chunk.js",
+    "static/js/2.6a3d70f7.chunk.js.map": "/kanbanuliloaders/static/js/2.6a3d70f7.chunk.js.map",
+    "index.html": "/kanbanuliloaders/index.html",
+    "precache-manifest.0cfd71eed9b224cc0c92d9d4932089d5.js": "/kanbanuliloaders/precache-manifest.0cfd71eed9b224cc0c92d9d4932089d5.js",
+    "service-worker.js": "/kanbanuliloaders/service-worker.js",
+    "static/css/main.da1ed5c4.chunk.css.map": "/kanbanuliloaders/static/css/main.da1ed5c4.chunk.css.map",
+    "static/js/2.6a3d70f7.chunk.js.LICENSE.txt": "/kanbanuliloaders/static/js/2.6a3d70f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c8689ff.js",
+    "static/js/2.6a3d70f7.chunk.js",
+    "static/css/main.da1ed5c4.chunk.css",
+    "static/js/main.75d80dbf.chunk.js"
+  ]
+}
